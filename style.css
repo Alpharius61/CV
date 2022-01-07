@@ -1,0 +1,37 @@
+/* Modif en ciblant l'id  */
+#Presentation
+{
+    color: white;
+    background-color: rgb(99, 5, 153);   
+}
+
+
+/* Modif d'un élément au sein d'un autre */
+.SubTitle > h2
+{
+    font-size: larger;
+    list-style-type: none;
+}
+
+#Title > h2
+{
+    text-align: center;
+}
+
+/* Modif en ciblant une class  */
+
+#CompetenceContainer
+{
+    /* Création de container pout la disposition des élément  */
+    display: flex; /* or inline-flex*/
+    /* Créer des espaces entres les containers (différents types d'espaces)  */
+    justify-content: space-around;
+}
+
+
+#ExperiencesContainer
+{
+    display: flex; /* or inline-flex*/
+    justify-content: space-around;
+}
+
